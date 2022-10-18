@@ -307,7 +307,7 @@ p{
 		min-width: 500px;
 		grid-template-columns: auto auto;
 		justify-content: center;
-		grid-template-areas: "boton busqueda "
+		grid-template-areas: " busqueda busqueda "
 							 "menuHorizontal menuHorizontal";
 	}
 
@@ -317,6 +317,11 @@ p{
 	.header .barra-busqueda input {
 		min-width: auto;
 		width: 100%;
+	}
+
+	.menuLateral{
+		margin: 159px;
+		margin-left: 0;
 	}
 }
 
