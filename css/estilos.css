@@ -2,12 +2,14 @@
 *{
     margin:0;
     padding:0;
+	
 }
 
 body{
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: #e8e6e7;
 }
+
 a {
 	text-decoration: none;
 	color: #000;
@@ -127,6 +129,8 @@ a {
     cursor: pointer;
     padding: 7px 15px;
     margin-right: 20px;
+
+	font-family: 'Fira Sans', sans-serif;
 }
 .header .menuHorizontal a:hover{
 	background: #589d92;
@@ -152,18 +156,35 @@ a {
 	position: fixed;
 	margin: 90px;
 	margin-left: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	max-height: 100vw;
+	flex-wrap: wrap;
+}
+.contenedor_global nav{
+	
 	height: 100%;
+	max-height: 90%;
 }
 .menuLateral a{
 	display: block;
 	padding: 15px 35px;
 	color: #000;
-
+	
 }
 .menuLateral a:hover{
     background-color: #9d6343;
 }
 
+.menuLateral a i{
+    font-size: 1.3rem;
+	color: #fff;
+}
+
+.menuLateral a i:hover{
+	color: #ccc;
+}
 
 /*Contenido*/
 .contenedor_contenido{
@@ -247,6 +268,7 @@ p{
 	
 }
 
+
 /*Contenido de la pagina principal*/
 
 .main_p {
@@ -307,7 +329,7 @@ p{
 		min-width: 500px;
 		grid-template-columns: auto auto;
 		justify-content: center;
-		grid-template-areas: " busqueda busqueda "
+		grid-template-areas: "boton busqueda "
 							 "menuHorizontal menuHorizontal";
 	}
 
@@ -387,7 +409,7 @@ p{
 
 .supercaja{
 	display: flex;
-
+	
 }
 .supercaja .derecha{
 	grid-area: conte;
@@ -406,10 +428,12 @@ p{
 @media screen and (max-width: 768px) {
 	.supercaja {
 		display: block;
+		margin-top: 100px;
 	}
 	.supercaja .izquierda img{
 		margin-left: 20%;
 		margin-right: 20%;
 		
 	}
+
 }
