@@ -1,42 +1,20 @@
-
 *{
     margin:0;
     padding:0;
-	
 }
-
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
     background-color: #e8e6e7;
 }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Josefin+Sans:wght@300&display=swap');
+
 /*anterior cc de juno*/
-#recuadroInicial{
-    display: grid;
-    gap: 50px;
-    margin: 10px 20px 10px 80px;
-    background-color:rgba(79, 137, 28, 0.416);
-    grid-template-columns: auto auto auto;
-}
-#tarjeta1,#tarjeta2,#tarjeta3,#tarjeta4,#tarjeta5{
-    background-color: rgba(52, 102, 8, 0.531);
-    border: 1px solid rgba(255, 255, 255, 0.575);
-    margin: 30px;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;  
-}
-#recuadroInfo{
-    background-color:rgba(79, 137, 28, 0.242);
-    margin: 10px 20px 10px 100px;
-    gap: 50px;
-    display: inline-flexbox;
-    text-align: center;
-}
-#planta1,#planta2,#planta3,#planta4,#planta5{
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px;
-}
+
+
+
+
+
 /*transition: width 2s, height 4s;
 div:hover {
     width: 300px;
@@ -341,6 +319,9 @@ p{
 
 	.header .barra-busqueda input {
 		min-width: 70%;
+	}
+	#recuadroImagenes{
+		
 	}
 }
 
