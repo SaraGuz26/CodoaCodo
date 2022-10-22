@@ -303,7 +303,17 @@ p{
 	}
 	#recuadroImagenes{
 		grid-template-columns: auto auto auto;
+		column-gap: 10%;
 	}
+	.contenido{
+		grid-template-areas: 
+		"recuadroImagenes" 
+		"recuadroInfo" "asideDer";
+	}
+	.asideDer{
+		margin: 0px 15px 0px 110px;
+	}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -312,6 +322,7 @@ p{
 	}
 	#recuadroImagenes{
 		grid-template-columns: auto auto;
+		column-gap: 30%;
 	}
 }
 
@@ -349,6 +360,7 @@ p{
 	}
 	#recuadroImagenes{
 		grid-template-columns: auto auto;
+		column-gap: 30%;
 	}
 }
 
