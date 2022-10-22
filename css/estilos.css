@@ -15,15 +15,7 @@ body{
 
 
 
-/*transition: width 2s, height 4s;
-div:hover {
-    width: 300px;
-    height: 300px;
-  }
-/*#planta1,#planta2,#planta3,#planta4,#planta5,#planta6:hover {
-    width: 300px;
-    height: 300px;
-  }*/
+
 
 a {
 	text-decoration: none;
@@ -321,13 +313,16 @@ p{
 		min-width: 70%;
 	}
 	#recuadroImagenes{
-		
+		grid-template-columns: auto auto auto;
 	}
 }
 
 @media screen and (max-width: 992px) {
 	.main_p .pantalla {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	#recuadroImagenes{
+		grid-template-columns: auto auto;
 	}
 }
 
@@ -363,11 +358,17 @@ p{
 		margin: 159px;
 		margin-left: 0;
 	}
+	#recuadroImagenes{
+		grid-template-columns: auto auto;
+	}
 }
 
 @media screen and (max-width: 576px) {
 	.main_p .pantalla {
 		grid-template-columns: 1fr;
+	}
+	#recuadroImagenes{
+		grid-template-columns: auto;
 	}
 }
 

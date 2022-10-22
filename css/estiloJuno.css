@@ -1,57 +1,55 @@
-/*.tituloJ{
-
-}
-.indice{
-
-}
-*/
 .imagenesJ{
-    width: 180px;
+  width: 180px;
 }
 
 img:hover {
-    box-shadow: rgba(237, 226, 226, 0.404) 0px 10px 36px 0px, rgba(0, 0, 0, 0.061) 0px 0px 0px 1px;
+    box-shadow: rgba(237, 226, 226, 0.404) 10px 10px 36px 10px;
   }
 #recuadroImagenes{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    margin: 1px 1px 10px 100px;
-    background-color:rgba(79, 137, 28, 0.416);
+    margin: 0px 0px 5px 85px;
+    background-color:#508a82e3;
 }
+
 #recuadroInfo{
     display: grid;
-    background-color: rgb(79, 137, 28, 0.416);
-    margin: 1px 15px 1px 115px;
+    background-color: #31975370;
+    margin: 0px 15px 0px 110px;
     gap: 20px;
-	padding: 10px;
+	  padding: 10px;
 }
-#tarjeta1,#tarjeta2,#tarjeta3,#tarjeta4,#tarjeta5 {
-    background-color: rgba(52, 102, 8, 0.531);
-    border: 1px solid rgba(255, 255, 255, 0.575);
-    margin: 20px;
-    padding: 20px;
+.tarjeta1,.tarjeta2,.tarjeta3,.tarjeta4,.tarjeta5 {
+    background-color: #915a3ca9;
+    border: 1px solid rgba(138, 190, 176, 0.478);
+    margin: 25px;
+    padding: 20px 10px 10px 10px;
     align-content: center;
     font-size: 20px;
-    cursor: pointer;  
+    cursor: pointer; 
+    text-align: center;
+    vertical-align: bottom;
+    letter-spacing: 1px;
 }
-#tarjeta1 a:hover {
-    color: rgb(0, 82, 60);
-  }
-#tarjeta2 a:hover {
-    color: rgb(0, 82, 60);
-  }
-#tarjeta4 a:hover {
-    color: rgb(0, 82, 60);
-  }
-#tarjeta5 a:hover {
-    color: rgb(0, 82, 60);
-  }
-#tarjeta3 a:hover {
-    color: rgb(0, 82, 60);
-  }
-
 #planta1,#planta2,#planta3,#planta4,#planta5 {
-	background-color: rgb(52, 102, 8, 0.531);
+	  background-color: #fcfbfab5;
     border: 1px solid rgba(255, 255, 255, 0.575);
     padding: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: rgb(5, 55, 41);
+}
+
+#recuadroImagenes a:hover {
+    color: rgb(2, 67, 49);
+  }
+
+.listaJ{
+    list-style: square inside url("/img/cactusICO.ico");
+}
+.listaJ2{
+  list-style: square inside url("/img/plant.ico");
+}
+.listaJ3{
+  list-style: square inside url("/img/leaf.ico");
 }
