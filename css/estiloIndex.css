@@ -79,7 +79,7 @@ h3 {
     background-image: url(/img/cactusColores.jpg);
     background-position: bottom;
     background-size: cover;
-    padding: 0.5rem 1rem 1.5rem;
+    padding: 0.5rem 1rem 2rem;
     grid-column: 3 / -1;
     grid-row: 1 / 2;
 }
@@ -98,10 +98,9 @@ h3 {
 /*termina consumo de API*/
 
 
-
 .gridContainerIndex:nth-child(4) {
-    background-image: url(/CodoaCodo/img/cactusFooter.jpg);
-    background-position: center;
+    background-image: url(/img/sucus2.jpg);
+    background-position: bottom;
     background-size: cover;
     border: 0.1rem solid #cfb79f;
     grid-column: 2 / 3;
@@ -109,7 +108,7 @@ h3 {
 }
 
 .gridContainerIndex:nth-child(5) {
-    background-image: url(/CodoaCodo/img/cactusFondoRosa.jpg);
+    background-image: url(/img/cactusFondoRosa.jpg);
     background-position: center;
     background-size: cover;
     grid-column: 3/-1;
