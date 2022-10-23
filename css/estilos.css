@@ -109,6 +109,8 @@ a {
 	font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
+	outline: none;
+
 }
 
 .header .barra-busqueda button {
@@ -370,7 +372,6 @@ p{
 
 .supercaja .primero{
 	font-size: 15px;
-	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 500;
 	margin-bottom: 40px;
@@ -381,12 +382,12 @@ p{
 .supercaja .primero span{
 	color: #545454;
 	font-weight: 500px;
-	
+	font-size: 20px;
 }
 .supercaja .primero h1{
 	font-size: 35px;
 	margin-bottom: 20px;
-	
+	text-transform: uppercase;
 }
 .supercaja .caja .fila{
 	margin-bottom: 40px;
@@ -451,7 +452,7 @@ p{
 	display: grid;
 	grid-area: extra;
 	justify-content: space-around;
-	margin: 200px;
+	margin: 100px;
 	
 }
 
