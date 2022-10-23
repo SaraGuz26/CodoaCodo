@@ -72,15 +72,11 @@
 }
 
 .listaJ {
-  list-style: square inside url("/img/cactusICO.ico");
+  list-style: square inside url("/img/cactusICO.svg");
 }
 
 .listaJ2 {
-  list-style: square inside url("/img/plant.ico");
-}
-
-.listaJ3 {
-  list-style: square inside url("/img/leaf.ico");
+  list-style: square inside url("/img/plant.svg");
 }
 
 .buttonBorrar {
