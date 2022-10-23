@@ -433,11 +433,15 @@ p{
 	.supercaja {
 		display: block;
 		margin-top: 100px;
+		
 	}
 	.supercaja .izquierda img{
-		margin-left: 20%;
+		margin-left: 30%;
 		margin-right: 20%;
-		
+		transition: 1s;
+	}
+	form{
+		transition: 1s;
 	}
 
 }
@@ -448,6 +452,7 @@ p{
 	grid-area: extra;
 	justify-content: space-around;
 	margin: 200px;
+	
 }
 
 .formulario{
@@ -457,34 +462,125 @@ p{
 	margin: auto;
 	padding: 20px;
 	box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-	position: relative;
+	border-radius: 7px;
 }
 
-.formulario__titulo{
+.formulario h2{
 	text-align: center;
-	margin-top: 0;
-	color: rgba(0,0,0,0.7);
-}
-
-.formulario__input, .formulario__label, .formulario__submit{
-	display: block;
-	width: 100%;
-	border: 1px solid rgba(0,0,0,0.3);
-	font-size: 1.3em;
-}
-
-.formulario__input{
-	padding: 20px;
-	padding-right: 0;
-	padding-left: 0;
-	border: 1px solid rgba(0,0,0,0.3);
+	margin: 0;
+	font-size: 30px;
 	margin-bottom: 20px;
+	margin-top: 12px;
+}
+.formulario input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	color: rgb(130, 127, 129);
+	outline: none;
+	border-radius: 5px;
+	border-color: rgb(142, 142, 142);
+}
+
+.formulario button{
+	background-color: hsl(0, 1%, 80%);
+	padding: 10px 50px;
+	margin-right: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.formulario button:hover{
+	background-color: hsl(0, 1%, 60%);
+	cursor: pointer;
+}
+
+.formulario p{
+	margin-top: 2px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	
+}
+
+.formulario p i{
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+}
+.formulario div{
 	margin-top: 20px;
 }
 
-.formulario__label{
-	padding-left: 15px;
-	position: absolute;
-	margin-top: -65px;
-	z-index: -20;
+.formulario div label{
+	font-size: 18px;
+}
+
+/*Validaciones*/
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+.formulario__input-error-activo {
+	display: block;
+	margin-top: 5px;
+}
+
+.formulario__validacion-estado {
+	font-size: 16px;
+	opacity: 0;
+}
+
+
+.formulario__mensaje {
+	height: 50px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
 }
