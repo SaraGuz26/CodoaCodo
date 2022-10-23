@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de Inicio</title>
     <link href="css/estilos.css" rel='stylesheet'>
-    <link rel="stylesheet" href="/css/estiloIndex.css">
-    <link rel="stylesheet" href="/css/estiloJuno.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/CodoaCodo/css/estiloIndex.css">
+    <!-- <link rel="stylesheet" href="/css/estiloJuno.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="contenedor_global active" id="contenedor">
         <header class="header">
+            <div class="contenedor-logo">
+                <button id="boton-menu" class="boton-menu"><img src="img/cactusContacto1.png" class="planta"></button>
+            </div>
             <div class="barra-busqueda">
                 <input type="text" placeholder="Buscar">
                 <button type="submit"><i class="fas fa-search"></i></button>
@@ -28,129 +34,113 @@
 
         <main class="main_p">
 
-            <div class="titulo">
-                <h1></h1>
-                <div id="contenedorClima">
-                    <div id="cajaUno">
-                        <p id="location"> </p>
-                    </div>
-                    <div id="cajaDos">
-                        <p id="tempValor"> </p>
-                        <p id="tempDescripcion"></p>
-                    </div>
-                    <div id="cajaLogoClima">
-                        <img id="locationEmoji" src="" alt="logoClima" height="50rem" width="50rem">
-                    </div>
-                    <div id="cajaTres">
-                        <p id="velocViento"></p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="pantalla">
-
+            <div class="containerIndex">
                 <!-- 1 -->
-                <div class="miniatura">
-                    <h2>¿Estás empezando y necesitás una pista?</h2>
-                    <h3>Te dejamos a continuación un par de ideas, ojala te sirvan!</h3>
-                    <ul class="recomendaciones">
-
+                <div class="gridContainerIndex">
+                    <div class="destacados">
+                        <lord-icon src="https://cdn.lordicon.com/coujyjzs.json" trigger="hover"
+                            style="width:3rem;height:3rem" id="iconDestacados">
+                        </lord-icon>
+                        <h1>Destacados:</h1>
+                    </div>
+                    <ul>
                         <li>
-                            <a href="https://youtu.be/JT30RkDS050?t=13" target="_blank">Cómo preparar sustrato casero para plantas de jardín.</a>
+                            <a href="https://youtu.be/JT30RkDS050?t=13" target="_blank">Cómo preparar sustrato
+                                casero
+                                para plantas de jardín.</a>
                             <p>@planetajardin</p>
                         </li>
                         <li>
-                            <a href="https://www.cactusysuculentas.org/sustratos/" target="_blank">Sustrato específico para cactus.</a>
+                            <a href="https://www.cactusysuculentas.org/sustratos/" target="_blank">Sustrato específico
+                                para cactus.</a>
                             <p>www.cactusysuculentas.org</p>
                         </li>
                         <li>
-                            <a href="https://youtu.be/0BKE_qXIQQU" target="_blank">Beneficios de sembrar caléndula en nuestros jardines.</a>
+                            <a href="https://youtu.be/0BKE_qXIQQU" target="_blank">Beneficios de sembrar caléndula en
+                                nuestros jardines.</a>
                             <p>@lahuertinadetoni</p>
                         </li>
                         <li>
-                            <a href="https://youtu.be/DzQ87Yn0t2Y" target="_blank">¿Cómo armo mi compostera casera con baldes?</a>
-                           <p>@redcompostaje</p>
+                            <a href="https://youtu.be/DzQ87Yn0t2Y" target="_blank">¿Cómo armo mi compostera casera con
+                                baldes?</a>
+                            <p>@redcompostaje</p>
                         </li>
                         <li>
-                            <a href="https://youtu.be/V8PAeUdQ-tY" target="_blank">Asociaciones beneficiosas: qué flores plantar cerca.</a>
+                            <a href="https://youtu.be/V8PAeUdQ-tY" target="_blank">Asociaciones beneficiosas: qué flores
+                                plantar cerca.</a>
                             <p>@cosasdeljardin</p>
                         </li>
                         <li>
-                            <a href="https://www.cactusysuculentas.org/enfermedades/" target="_blank">Aprender a distinguir qué les pasa a nuestras plantas cuando no se ven sanas.</a>
+                            <a href="https://www.cactusysuculentas.org/enfermedades/" target="_blank">Aprender a
+                                distinguir qué les pasa a nuestras plantas cuando no se ven sanas.</a>
                             <p>www.cactusysuculentas.org</p>
                         </li>
-
-
                     </ul>
                 </div>
 
-                <!-- 2 -->
-                <div class="miniatura">
-                    <img src="/img/siembraOct.PNG" alt="siembraOct" width="479" height="592">
-                </div>
+                <!--2-->
+                <div class="gridContainerIndex">
+                    <!-- foto cactus fondo rosa -->
 
+                </div>
                 <!-- 3 -->
-                <div class="miniatura">
-                    <img src="/img/siembraNov.PNG" alt="siembraNov" width="478" height="590">
+                <div class="gridContainerIndex">
+                    <div>
+                        <span id="location"></span>
+                        <span id="tempValor"></span>
+                        <span id="tempDescripcion"></span>
+                        <div id="cajaLogoClima">
+                            <img id="locationEmoji" src="" alt="logoClima" height="50rem" width="50rem">
+                        </div>
+                        <span id="velocViento"></span>
+                    </div>
                 </div>
-
 
                 <!-- 4 -->
-                <div class="miniatura">
-                    <img src="/img/siembraDic.PNG" alt="siembraDic" width="481" height="582">
+                <div class="gridContainerIndex">
+                    <!-- foto cuidado de cactus -->
                 </div>
-
 
                 <!-- 5 -->
-                <div>
-                    <img src="/img/cactusColores.jpg" alt="cactusColoridos">
-
+                <div class="gridContainerIndex">
+                    <!-- foto cactus fondo rosa -->
                 </div>
-
-
 
                 <!-- 6 -->
-                <div class="miniatura">
-                    <img src="/img/sucus2.jpg" alt="suculentas">
-                </div>
-
+                <!-- <div class="gridContainerIndex">
+                </div> -->
 
                 <!-- 7 -->
-                <div class="miniatura">
-                    <img src="/img/cuidadosCactus.PNG" alt="cuidadosCactus" width="449" height="515">
-                </div>
-
+                <!-- <div class="gridContainerIndex">
+                </div> -->
                 <!-- 8 -->
-                <div class="miniatura">
-                    <img src="/img/sucus.jpg" alt="suculentas">
-                </div>
-
-
+                <!-- <div class="gridContainerIndex">
+                </div> -->
 
                 <!-- 9 -->
-                <div class="miniatura">
-                    <iframe src="https://www.youtube.com/embed/A_tRGJeJ4eA"
-                        title="Insecticida Casero Para Plantas - Huerto y Jardin Ecológico" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <div class="gridContainerIndex">
+                    <p>A continuación, algunos videos con más consejos!</p>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/A_tRGJeJ4eA" title="Insecticida Casero Para Plantas"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
 
-                </div>
-                <!-- 10 -->
-                <div class="miniatura">
-                    <iframe width="1350" height="480" src="https://www.youtube.com/embed/OD9aQx_ffRo"
-                        title="10 tipos de cactus que nuca habías visto!" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/OD9aQx_ffRo"
+                            title="10 tipos de cactus que nunca habias visto!" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
 
-                </div>
-                <!--11-->
-                <div class="miniatura">
-                    <iframe width="1349" height="480" src="https://www.youtube.com/embed/jCJTUhF5qlI" title="👉 7 Errores Que Todos Cometimos Preparando Semilleros 🌱 Solución || La Huertina De Toni" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!--12-->
-                <div class="miniatura">
-                    <iframe width="1349" height="480" src="https://www.youtube.com/embed/XcWOGnLqfEo" title="Se pudrió mi cactus 😢 Rescatando cactus podridos | Jardines By Angie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/jCJTUhF5qlI"
+                            title=" 7 Errores Que Todos Cometimos Preparando Semilleros" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe src="https://www.youtube.com/embed/XcWOGnLqfEo" title="Rescatando cactus podridos"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
 
@@ -163,9 +153,10 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-    <script src="/js/jsIndex.js"></script>
+    <script src="/CodoaCodo/js/jsIndex.js"></script>
 </body>
 
 </html>

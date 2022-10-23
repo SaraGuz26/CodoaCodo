@@ -25,11 +25,11 @@ window.addEventListener('load', () => {
                 })
                 .then((data) => {
                     console.log(data)
-                    ubicacion.innerHTML = `Estas en la ciudad de ${data.location.name}`
-                    temperaturaValor.innerHTML = `La temperatura actual es de ${data.current.temp_c}°C`;
-                    temperaturaDescripcion.innerHTML = `El dia esta ${data.current.condition.text}`
+                    ubicacion.innerHTML = `<h2>Ciudad:</h2><p> ${data.location.name}.</p>`
+                    temperaturaValor.innerHTML = `La temperatura actual es de ${data.current.temp_c}°C,`;
+                    temperaturaDescripcion.innerHTML = ` está ${data.current.condition.text}.`
                     iconoClima.src = `${data.current.condition.icon}`
-                    vientoVelocidad.innerHTML = `El viento corre a ${data.current.wind_kph} km/h`
+                    vientoVelocidad.innerHTML = `La velocidad del viento es de ${data.current.wind_kph} km/h.`
                 })
                 .catch((error) => {
                     console.log(error)
