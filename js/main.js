@@ -4,6 +4,13 @@ document.querySelector('#boton-menu').addEventListener('click', () => {
 	contenedor.classList.toggle('active');
 	
 });
+const div = document.querySelector('#container');
+
+document.querySelector('#boton-menu').addEventListener('click', () => {
+	div.classList.toggle('active');
+	
+});
+
 
 /*(/$(document).ready(main);
 

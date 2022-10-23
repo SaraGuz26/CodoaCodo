@@ -37,19 +37,6 @@ a {
 
 }
 
-.contenedor_global.active{
-    width: 100%;
-	min-height: 100vh;
-	margin: 0 auto;
-    display: grid;
-    grid-template-areas: "header"
-						 "contenido"
-						 "extra"
-                         "footer";
-	grid-template-columns: auto;
-    grid-template-rows: 100px auto auto 60px;
-    transition: all .3s ease;
-}
 
 
 .header {
@@ -173,6 +160,7 @@ a {
 	flex-direction: column;
 	max-height: 100vw;
 	flex-wrap: wrap;
+	
 }
 .contenedor_global nav{
 	
@@ -200,6 +188,7 @@ a {
 
 .menuLateral.active{
 	display: none;
+	
 }
 
 /*Contenido*/
@@ -212,6 +201,7 @@ a {
 						"imagen"
 						"info";
 }
+
 
 .contenedor_contenido .titulo{
 	grid-area: titulo;

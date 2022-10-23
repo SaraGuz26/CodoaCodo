@@ -3,14 +3,16 @@
   width: 100%;
   font-weight: 600;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 0;
   grid-template-columns: auto;
   grid-template-areas:
     "recuadroImagenes recuadroImagenes recuadroImagenes recuadroImagenes recuadroImagenes"
     "recuadroInfo recuadroInfo recuadroInfo recuadroInfo asideDer";
 }
 
-
+.contenido.active{
+  margin: 0 85px;
+}
 .imagenesJ {
   width: 180px;
 }
@@ -19,7 +21,7 @@
   grid-area: recuadroImagenes;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  margin: 0px 0px 5px 85px;
+  margin: 0px 0px 5px 0;
   background-color: #508a82e3;
 }
 
@@ -27,7 +29,7 @@
   grid-area: recuadroInfo;
   display: grid;
   background-color: #31975370;
-  margin: 0px 15px 0px 110px;
+  margin: 0px 15px 0px 25px;
   gap: 20px;
   padding: 10px;
 }
