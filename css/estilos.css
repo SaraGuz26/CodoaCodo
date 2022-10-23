@@ -322,7 +322,7 @@ p{
 	}
 	#recuadroImagenes{
 		grid-template-columns: auto auto;
-		column-gap: 30%;
+		column-gap: 0%;
 	}
 }
 
@@ -359,8 +359,9 @@ p{
 		margin-left: 0;
 	}
 	#recuadroImagenes{
-		grid-template-columns: auto auto;
-		column-gap: 30%;
+		margin-top: 50px;
+		margin-left: 30px;
+		grid-template-columns: auto auto;	
 	}
 }
 
@@ -370,6 +371,7 @@ p{
 	}
 	#recuadroImagenes{
 		grid-template-columns: auto;
+		margin-left: 10px;
 	}
 }
 
