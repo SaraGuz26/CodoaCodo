@@ -23,7 +23,6 @@ h3 {
 
 .gridContainerIndex {
     background-repeat: no-repeat;
-    /* padding: 0.5rem; */
     margin: 0.5rem;
     background-color: #fff;
     border-radius: 5px;
@@ -38,7 +37,7 @@ h3 {
 }
 
 .gridContainerIndex:first-child ul {
-    list-style-image: url(/CodoaCodo/img/cactusICO.ico);
+    list-style-image: url(/img/cactusICO.svg);
     list-style-position: inside;
     
 }
@@ -65,7 +64,7 @@ h3 {
 }
 
 .gridContainerIndex:nth-child(2) {
-    background-image: url(/CodoaCodo/img/miniCactus.jpg);
+    background-image: url(/img/miniCactus.jpg);
     background-position: center;
     background-size: cover;
     grid-column: 2 / 3;
@@ -77,10 +76,10 @@ h3 {
 /*      consulta API de clima -------------> https://www.weatherapi.com/   */
 .gridContainerIndex:nth-child(3) {
     border: 0.1rem solid #cfb79f;
-    background-image: url(/CodoaCodo/img/cactusColores.jpg);
+    background-image: url(/img/cactusColores.jpg);
     background-position: bottom;
     background-size: cover;
-    padding: 0.5rem 1rem 1rem;
+    padding: 0.5rem 1rem 1.5rem;
     grid-column: 3 / -1;
     grid-row: 1 / 2;
 }
