@@ -889,10 +889,10 @@ h3 {
   /*  background-image: url(/img/miniCactus.jpg);
     background-position: center;
     background-size: cover;*/
-	background-color: #cfb79f;
-	padding: 3rem;
-	text-align: center;
-	font-size: 2rem;
+    background-color: #cfb79f;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
     grid-column: 2 / 3;
     grid-row: 1 / 2 ;
 
@@ -904,11 +904,11 @@ h3 {
     /*background-image: url(/img/cactusColores.jpg);
     background-position: bottom;
     background-size: cover;*/
-	border: 0.1rem solid #cfb79f;
-	text-align: center;
+    border: 0.1rem solid #cfb79f;
+    text-align: center;
     padding: 3rem;
-	background: rgb(207,183,159);
-	background: linear-gradient(0deg, rgba(207,183,159,1) 0%, rgba(76,121,114,1) 100%);	
+    background: rgb(207,183,159);
+    background: linear-gradient(0deg, rgba(207,183,159,1) 0%, rgba(76,121,114,1) 100%);	
     grid-column: 3 / -1;
     grid-row: 1 / 2;
 }
@@ -931,10 +931,10 @@ h3 {
     /*background-image: url(/img/sucus2.jpg);
     background-position: bottom;
     background-size: cover;*/
-	background-color: #915a3c;
-	padding: 3rem;
-	text-align: center;
-	font-size: 2rem;
+    background-color: #915a3c;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
     border: 0.1rem solid #cfb79f;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -944,10 +944,10 @@ h3 {
     /*background-image: url(/img/cactusFondoRosa.jpg);
     background-position: center;
     background-size: cover;*/
-	background-color: #4c7972;
-	padding: 3rem;
-	text-align: center;
-	font-size: 2rem;
+    background-color: #4c7972;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
     grid-column: 3/-1;
     grid-row: 2 / 3 ;
 }
