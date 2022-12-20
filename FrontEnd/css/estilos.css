@@ -101,7 +101,11 @@ body{
 	border: 2px solid #c4c4c4;
 	cursor: pointer;
   }
-  
+  .buttonBorrarJ:hover{
+	background-color: #e7635ad0;
+
+
+  }
   .buttonEnviarJ {
 	background-color: #166a1cb6;
 	padding: 6px 20px;
@@ -712,7 +716,7 @@ p{
 	padding: 10px;
 	box-sizing: border-box;
 	margin-top: 5px;
-	color: rgb(130, 127, 129);
+	color: rgb(6, 2, 4);
 	outline: none;
 	border-radius: 5px;
 	border-color: rgb(142, 142, 142);
@@ -1028,3 +1032,4 @@ iframe {
 .formulario{
 	background-color: #5a9188;
 }
+
