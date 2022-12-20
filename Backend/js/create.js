@@ -21,7 +21,7 @@ function guardar() {
     fetch(url, options)
         .then(function () {
             console.log("creado")
-            alert("Grabado")
+            alert("¡Gracias por suscribirte, pronto tendras novedades!")
             //window.location.href = "/CodoaCodo/FrontEnd/PanelAdministracion.html";
             // Handle response we get from the API
         })
