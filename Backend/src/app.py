@@ -7,7 +7,8 @@ app=Flask(__name__)  # crear el objeto app de la clase Flask
 CORS(app) #modulo cors es para que me permita acceder desde el frontend al backend
 # configuro la base de datos, con el nombre el usuario y la clave
 
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:root@127.0.0.1/CodoaCodo'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://laffarguej:95686235jM@laffarguej.mysql.pythonanywhere-services.com/laffarguej$default'
+#'mysql+pymysql://root:root@127.0.0.1/CodoaCodo'
 
 # URI de la BBDD                      driver de la BD  user:clave@URL/nombreBBDD
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False #none
