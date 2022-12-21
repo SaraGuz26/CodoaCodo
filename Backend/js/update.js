@@ -24,7 +24,7 @@ function modificar() {
         mail: m,
         comentario: c
     }
-    let url = "http://localhost:5000/productos/"+id
+    let url = "https://laffarguej.pythonanywhere.com/productos/"+id
     var options = {
         body: JSON.stringify(producto),
         method: 'PUT',

@@ -11,7 +11,7 @@ function guardar() {
         mail: m,
         comentario: c
     }
-    let url = "http://localhost:5000/productos"
+    let url = "https://laffarguej.pythonanywhere.com/productos"
     var options = {
         body: JSON.stringify(producto),
         method: 'POST',
