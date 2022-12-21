@@ -1033,3 +1033,6 @@ iframe {
 	background-color: #5a9188;
 }
 
+.menuHorizontal .priv a:hover{
+	background-color: #e7645a;
+}

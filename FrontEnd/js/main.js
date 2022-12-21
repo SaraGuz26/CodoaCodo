@@ -153,3 +153,7 @@ window.addEventListener('load', () => {
     }
 })
 
+function mix(){
+    guardar();
+	Swal.fire('Gracias por suscribirte');
+}
